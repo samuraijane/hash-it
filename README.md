@@ -25,7 +25,7 @@ Single quotes are required*.
 npm run hash <some-plain-text-password> '<some-long-hash-here>'
 ```
 
-## The requirement for single quotes
+## * The requirement for single quotes
 Others have noted issues when trying to pass a string from the command line that includes `$`. Not sure if this is officially documented but enclosing the passed-in string with single quotes resolves the problem. If you care to research further, see the threads below.
 - [NPM issue 19505](https://github.com/npm/npm/issues/19505)
 - [PowerShell issue 4024](https://github.com/PowerShell/PowerShell/issues/4024)
