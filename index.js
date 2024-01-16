@@ -7,8 +7,6 @@ const [
   _hash
 ] = process.argv;
 
-console.log(process.argv);
-
 const type = _pw && !_hash ? "hash" : _pw && _hash ? "compare" : "error";
 
 if (type === "error") {
